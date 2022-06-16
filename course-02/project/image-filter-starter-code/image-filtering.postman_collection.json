@@ -11,7 +11,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8082/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg",
+					"raw": "http://localhost:8082/filteredimage?image_url=https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -23,7 +23,7 @@
 					"query": [
 						{
 							"key": "image_url",
-							"value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg"
+							"value": "https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w"
 						}
 					]
 				}
