@@ -31,7 +31,7 @@
 			"response": []
 		},
 		{
-			"name": "elastic-bean-image-filtering",
+			"name": "elastic-beanstalk-image-filtering-endpoint",
 			"request": {
 				"method": "GET",
 				"header": [],
