@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "c8d92537-2b71-43ce-8851-13f6f277b512",
+		"name": "projects",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Image filtering",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "elastic-bean-image-filtering",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://sibabalwe-image-filter-env-2.eba-gbdwsnns.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w",
+					"protocol": "http",
+					"host": [
+						"sibabalwe-image-filter-env-2",
+						"eba-gbdwsnns",
+						"us-east-1",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"filteredimage"
+					],
+					"query": [
+						{
+							"key": "image_url",
+							"value": "https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
