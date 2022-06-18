@@ -36,7 +36,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://sibabalwe-image-filter-env-2.eba-gbdwsnns.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w",
+					"raw": "{{eb_url}}/filteredimage?image_url=https://i.picsum.photos/id/569/200/300.jpg?hmac=D8acXEs6-e8Ha0rC3v79QfxclnbwM6lZw-U78z-7u4w",
 					"protocol": "http",
 					"host": [
 						"sibabalwe-image-filter-env-2",
